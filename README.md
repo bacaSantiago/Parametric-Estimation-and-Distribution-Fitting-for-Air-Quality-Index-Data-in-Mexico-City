@@ -14,10 +14,10 @@ In this project, we apply parametric estimation techniques to fit distributions 
 
 1. **Method of Moments Estimators**:
    - Rayleigh Distribution
-     - Parameter: \(\sigma\)
+     - Parameter: $$\sigma$$
      - Probability density function: $$pdf(x; \sigma) = \frac{x}{\sigma^2} \exp\left(-\frac{x^2}{2\sigma^2}\right)$$
    - Gamma Distribution
-     - Parameters: \(\alpha\) (shape) and \(\beta\) (scale)
+     - Parameters: $$\alpha$$ (shape) and $$\beta$$ (scale)
      - Probability density function: $$pdf(x; \alpha, \beta) = \frac{x^{\alpha - 1} \exp\left(-\frac{x}{\beta}\right)}{\Gamma(\alpha) \beta^\alpha}$$
 
 2. **Maximum Likelihood Estimators**:
